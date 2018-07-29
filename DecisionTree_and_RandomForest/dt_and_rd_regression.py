@@ -14,7 +14,7 @@ y = data.iloc[:,-1:].values
 
 #decision tree
 
-from sklearn.tree import DecisionTreeRegressor
+from sklearn.tree import DecisionTreeRegressor,DecisionTreeClassifier
 r_dt = DecisionTreeRegressor(random_state = 0)
 r_dt.fit(x,y)
 
